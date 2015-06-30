@@ -14,7 +14,7 @@
 
       <div class="mui-panel">
         <a href="https://github.com/rockerboo/elirc_twitch">
-           <img src="<%= static_path(@conn, "/assets/images/github.svg") %>" style="height: 18px;"> Github</a>
+           <img src="<%= static_path(@conn, "/assets/images/Github.svg") %>" style="height: 18px;"> Github</a>
         &nbsp;
         <a href="https://twitter.com/rockerboo">
           <img src="<%= static_path(@conn, "/assets/images/Twitter_bird_logo_2012.svg") %>" style="height: 18px"> Twitter</a>
