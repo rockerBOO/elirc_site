@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- load MUI -->
 
-    <link href="//cdn.muicss.com/mui-0.1.14/css/mui.min.css" rel="stylesheet" type="text/css" />
-    <script src="//cdn.muicss.com/mui-0.1.14/js/mui.min.js"></script>
+    <link href="<%= static_path(@conn, "/css/mui.min.css") %>" rel="stylesheet" type="text/css" />
+    <script src="<%= static_path(@conn, "/js/mui.min.js") %>"></script>
 
     <style type="text/css">
     body {

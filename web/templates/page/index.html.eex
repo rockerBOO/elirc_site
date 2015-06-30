@@ -4,7 +4,7 @@
 
       <div class="mui-panel">
         <form method="post">
-          <p>Let us contact you when it's ready</p>
+          <p>Let us contact you when it's ready.</p>
           <div class="mui-form-group">
             <input type="text" name="email" class="mui-form-control" placeholder="Email">
           </div>
@@ -14,10 +14,12 @@
 
       <div class="mui-panel">
         <a href="https://github.com/rockerboo/elirc_twitch">
-           <img src="<%= static_path(@conn, "/assets/images/github.svg") %>" style="height: 18px;"> Github
-        </a> &nbsp;
+           <img src="<%= static_path(@conn, "/assets/images/github.svg") %>" style="height: 18px;"> Github</a>
+        &nbsp;
         <a href="https://twitter.com/rockerboo">
-          <img src="<%= static_path(@conn, "/assets/images/Twitter_bird_logo_2012.svg") %>" style="height: 18px">
-          Twitter
+          <img src="<%= static_path(@conn, "/assets/images/Twitter_bird_logo_2012.svg") %>" style="height: 18px"> Twitter</a>
+        &nbsp;
+        <a href="https://www.muicss.com/">
+          MUI
         </a>
       </div>
