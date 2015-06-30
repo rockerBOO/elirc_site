@@ -10,7 +10,7 @@
     <script src="//cdn.muicss.com/mui-0.1.14/js/mui.min.js"></script>
 
     <style type="text/css">
-    * {
+    body {
       font-family: "Roboto Mono", "Consolas", monospace;
     }
     #hero {
@@ -19,15 +19,17 @@
 
     #hero h1 {
       font-weight: bold;
+      font-size: 4em;
+      line-height: 1;
     }
     </style>
   </head>
   <body>
     <!-- example content -->
-    <div id="hero" class="mui-text-center mui-container-fluid">
+    <div id="hero" class="mui-text-center mui-container">
       <h1>ElircBot</h1>
     </div>
-    <div class="mui-container-fluid">
+    <div class="mui-container">
 
       <%= @inner %>
     </div>
