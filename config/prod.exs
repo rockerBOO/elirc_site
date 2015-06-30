@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :elirc_site, ElircSite.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [host: "example.com", port: 80],
+  url: [host: "li692-196.members.linode.com", port: 80],
   cache_static_manifest: "priv/static/manifest.json"
 
 # ## SSL Support
